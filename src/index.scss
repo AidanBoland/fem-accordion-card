@@ -1,0 +1,34 @@
+//Colour variables
+    //primary
+$gradient-blue: hsl(240, 73%, 65%);
+$gradient-violet: hsl(273, 75%, 66%);
+
+$vdark-desat-blue: hsl(238, 29%, 16%);
+$soft-red: hsl(14, 88%, 65%);
+
+    //neutral
+$vdark-gray-blue: hsl(237, 12%, 33%);
+$dark-gray-blue: hsl(240, 6%, 50%);
+
+$light-gray-blue: hsl(240, 5%, 91%);
+
+//text
+    //colours
+$fc-hover: $soft-red;
+$fc-title: $vdark-desat-blue;
+$fc-regular: $dark-gray-blue;
+
+    //font-size
+$fs-500: 1rem;
+$fs-600: 1.125rem;
+$fs-700: 2.675rem;
+
+    //font-weight
+$fw-500: 300;
+$fw-600: 400;
+$fw-700: 600;
+
+body {
+    background: linear-gradient($gradient-violet, $gradient-blue) center/cover no-repeat;
+    height: 100vh;
+}
