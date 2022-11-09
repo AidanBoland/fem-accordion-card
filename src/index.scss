@@ -35,7 +35,6 @@ $fw-700: 600;
 body {
     position: relative;
     background: linear-gradient($gradient-violet, $gradient-blue) center/cover no-repeat;
-    height: 100vh;
+    height: min-content;
     margin: 0px;
-    top: 0px;
 }
