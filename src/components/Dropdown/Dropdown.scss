@@ -1,17 +1,80 @@
 @import '../../index.scss';
 
-.Dropdown {
-    border-bottom: 2px;
-    border-color: $light-gray-blue;
+.Dropped {
+    position: relative;
+    left: 55%;
+    width: 40%;
+    border-bottom: 2px solid $light-gray-blue;
+    .FlexCont {
+        display: flex;
+        margin-bottom: 2%;
+    }
+
+    .TitleBlock {
+        margin-left: 2%;
+        width: 90%;
+        h1 {
+            height: min-content;
+            display: block;
+            margin: auto 0px;
+        }
+        :hover {
+            color: $fc-hover;
+        }
+    }
+
+    .SVGBlock {
+        margin: auto 0px;
+        height: min-content;
+        width: 5%;
+        svg {
+            display: block;
+            width: 10px;
+            margin: 0px auto;
+            transition: rotate 2s;
+        }
+    }
+
+    p {
+        margin-left: 2%;
+    }
 }
 
-h1 {
-    font-size: $fs-600;
-    font-weight: $fw-500;
-}
+.Folded {
 
-p {
-    font-size: $fs-500;
-    font-weight: $fw-500;
-    color: $fc-regular;
+    position: relative;
+    left: 55%;
+    width: 40%;
+    border-bottom: 2px solid $light-gray-blue;
+
+    .FlexCont {
+        display: flex;
+        margin-bottom: 2%;
+    }
+
+    .TitleBlock {
+        margin-left: 2%;
+        width: 90%;
+        h1 {
+            font-weight: $fw-500;
+            color: $vdark-gray-blue;
+            height: min-content;
+            display: block;
+            margin: auto 0px;
+        }
+        :hover {
+            color: $fc-hover;
+        }
+    }
+
+    .SVGBlock {
+        margin: auto 0px;
+        height: min-content;
+        width: 5%;
+        svg {
+            display: block;
+            width: 10px;
+            margin: 0px auto;
+        }
+    }
 }

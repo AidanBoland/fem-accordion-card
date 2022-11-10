@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600&display=swap');
+
 :root {
-    font-size: 9px;
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 //Colour variables
@@ -24,17 +27,34 @@ $fc-regular: $dark-gray-blue;
 
     //font-size
 $fs-500: 1rem;
-$fs-600: 1.125rem;
+$fs-600: 1.2rem;
 $fs-700: 2.675rem;
 
     //font-weight
-$fw-500: 150;
-$fw-600: 250;
-$fw-700: 400;
+$fw-500: 300;
+$fw-600: 600;
+$fw-700: 600;
 
 body {
     position: relative;
     background: linear-gradient($gradient-violet, $gradient-blue) center/cover no-repeat;
     height: min-content;
     margin: 0px;
+}
+
+p {
+    font-size: $fs-500;
+    font-weight: $fw-500;
+    color: $fc-regular;
+}
+
+h1 {
+    font-size: $fs-600;
+    font-weight: $fw-600;
+}
+
+h2 {
+    color: $fc-title;
+    font-size: $fs-700;
+    font-weight: $fw-700;
 }

@@ -1,5 +1,6 @@
 .cardMain {
     position: relative;
+    display: inline-block;
     background: white;
     border-radius: 5vh;
     height: 60vh;
@@ -7,4 +8,19 @@
     margin: 20vh 20vw;
     top: 50%;
     // transform: translateY(-50%);
+}
+
+.SVGs {
+    width: 40%;
+    height: fit-content;
+    left: 0%;
+}
+
+.MainTitle {
+    position: relative;
+    width: 40%;
+    left: 55%;
+    h2 {
+        margin-left: 2%;
+    }
 }
