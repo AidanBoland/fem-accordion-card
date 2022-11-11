@@ -11,7 +11,7 @@ function Dropdown(props: DropdownProps) {
     const [showDropdown, setShowDropdown] = useState(false);
 
     return (
-        <div className={showDropdown ? 'Dropped' : 'Folded'}>
+        <div id='Dropdown' className={showDropdown ? 'Dropped' : 'Folded'}>
             <div
                 id="anFAQ"
                 className="FlexCont"
@@ -36,7 +36,8 @@ function Dropdown(props: DropdownProps) {
                     </svg>
                 </div>
             </div>
-            {showDropdown === true && <p>{props.content}</p>}
+            <p>{props.content}</p>
+            {/* {showDropdown === true && <p>{props.content}</p>} */}
         </div>
     );
 }

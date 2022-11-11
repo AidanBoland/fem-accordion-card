@@ -5,6 +5,10 @@
     left: 55%;
     width: 40%;
     border-bottom: 2px solid $light-gray-blue;
+    margin-bottom: 3%;
+    height: 99.5px;
+    transition: height 0.5s;
+
     .FlexCont {
         display: flex;
         margin-bottom: 2%;
@@ -38,6 +42,8 @@
 
     p {
         margin-left: 2%;
+        color: $fc-regular;
+        transition: color 0.5s 0.25s;
     }
 }
 
@@ -46,6 +52,9 @@
     left: 55%;
     width: 40%;
     border-bottom: 2px solid $light-gray-blue;
+    margin-bottom: calc(30% / 5);
+    height: 33.2667px;
+    transition: height 0.5s 0.25s;
 
     .FlexCont {
         display: flex;
@@ -77,5 +86,11 @@
             margin: 0px auto;
             transition: transform 0.5s;
         }
+    }
+
+    p {
+        margin-left: 2%;
+        color: white;
+        transition: color 0.5s;
     }
 }
