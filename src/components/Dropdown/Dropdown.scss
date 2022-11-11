@@ -31,7 +31,8 @@
             display: block;
             width: 10px;
             margin: 0px auto;
-            transition: rotate 2s;
+            transform: rotate(180deg);
+            transition: transform 0.5s;
         }
     }
 
@@ -74,6 +75,7 @@
             display: block;
             width: 10px;
             margin: 0px auto;
+            transition: transform 0.5s;
         }
     }
 }
