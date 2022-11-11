@@ -6,38 +6,39 @@
 }
 
 //Colour variables
-    //primary
+//primary
 $gradient-blue: #6565e7;
 $gradient-violet: #af67e9;
 
 $vdark-desat-blue: #1d1e35;
 $soft-red: #f47c57;
 
-    //neutral
+//neutral
 $vdark-gray-blue: #4a4b5e;
 $dark-gray-blue: #787887;
 
 $light-gray-blue: #e7e7e9;
 
 //text
-    //colours
+//colours
 $fc-hover: $soft-red;
 $fc-title: $vdark-desat-blue;
 $fc-regular: $dark-gray-blue;
 
-    //font-size
+//font-size
 $fs-500: 1rem;
 $fs-600: 1.2rem;
 $fs-700: 2.675rem;
 
-    //font-weight
+//font-weight
 $fw-500: 300;
 $fw-600: 600;
 $fw-700: 600;
 
 body {
     position: relative;
-    background: linear-gradient($gradient-violet, $gradient-blue) center/cover no-repeat;
+    background: linear-gradient($gradient-violet, $gradient-blue) center/cover
+        no-repeat;
     height: min-content;
     margin: 0px;
 }
