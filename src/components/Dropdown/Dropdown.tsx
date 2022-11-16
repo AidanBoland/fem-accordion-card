@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { /*FunctionComponent,*/ useState } from 'react';
 import '../../index.scss';
 import './Dropdown.scss';
 
@@ -11,7 +11,7 @@ function Dropdown(props: DropdownProps) {
     const [showDropdown, setShowDropdown] = useState(false);
 
     return (
-        <div id='Dropdown' className={showDropdown ? 'Dropped' : 'Folded'}>
+        <div id="Dropdown" className={showDropdown ? 'Dropped' : 'Folded'}>
             <div
                 id="anFAQ"
                 className="FlexCont"

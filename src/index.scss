@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600&display=swap');
 
-:root {
-    font-size: 16px;
-    font-family: 'Kumbh Sans', sans-serif;
+@media screen and (min-width: 500px) {
+    :root {
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        font-size: 8px;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
 }
 
 //Colour variables
@@ -39,8 +47,9 @@ body {
     position: relative;
     background: linear-gradient($gradient-violet, $gradient-blue) center/cover
         no-repeat;
-    height: min-content;
+    height: 100vh;
     margin: 0px;
+    overflow: clip;
 }
 
 p {
