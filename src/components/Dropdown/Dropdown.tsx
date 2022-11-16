@@ -37,7 +37,6 @@ function Dropdown(props: DropdownProps) {
                 </div>
             </div>
             <p>{props.content}</p>
-            {/* {showDropdown === true && <p>{props.content}</p>} */}
         </div>
     );
 }

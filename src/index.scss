@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600&display=swap');
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     :root {
         font-family: 'Kumbh Sans', sans-serif;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     :root {
-        font-size: 8px;
         font-family: 'Kumbh Sans', sans-serif;
+        font-size: 0.8rem;
     }
 }
 

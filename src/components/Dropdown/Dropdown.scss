@@ -25,6 +25,9 @@
             margin: auto 0px;
             transition: color 0.25s ease-in-out;
             transition: font-weight 0.25s ease-in-out;
+            &:hover {
+                color: $fc-hover;
+            }
         }
     }
 
@@ -76,6 +79,9 @@
             margin: auto 0px;
             transition: color 0.25s ease-in-out;
             transition: font-weight 0.25s ease-in-out;
+            &:hover {
+                color: $fc-hover;
+            }
         }
     }
 
@@ -101,7 +107,17 @@
     }
 }
 
-// this wouldn't work nested??? no idea why
-.TitleBlock > h1:hover {
-    color: $fc-hover;
+
+@media screen and (max-width: 600px) {
+    .Dropped {
+        position: relative;
+        left: 5%;
+        width: 90%;
+    }
+    .Folded {
+        position: relative;
+        left: 5%;
+        width: 90%;
+    }
+    
 }
